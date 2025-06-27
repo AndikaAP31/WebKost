@@ -10,4 +10,13 @@ class AuthController extends Controller
     {
         return view('users/authregister');
     }
+    
+     public function showLoginForm()
+    {
+        return view('users/authlogin');
+    }
+    public function coba()
+    {
+        return view('components/aside');
+    }
 }
